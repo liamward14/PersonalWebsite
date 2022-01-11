@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Liam Ward's Profile</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+
+</head>
+<body>
+    <header class="header">
+        <div class="container clearfix">
+            <img class="profile-image img-fluid float-left rounded-circle" src="~/images/LiamWardSmaller.jpg" style="width: 18%;" />
+            <div class="profile-content float-left">
+                <h1 class="name">Liam Ward</h1>
+                <h2 class="desc">Engineering Physics Student &amp; Embedded System Enthusiast</h2>
+                <h2 class="desc"></h2>
+                <ul class="social list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/william-ward010101">
+                            <img src="~/svgs/linkedin-in.svg" style="width: 55%; margin-top: 6px;" />
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/liamward14">
+                            <img src="~/svgs/github.svg" style="width: 55%; margin-top: 7px; margin-right: 1px;" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-rss/jquery.rss.min.js"></script>
+    <script src="~/lib/github-calendar/github-calendar.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/ff6f6bb65e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

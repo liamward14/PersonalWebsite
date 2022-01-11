@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery-rss@4.3.0",
+      "destination": "wwwroot/lib/jquery-rss/"
+    },
+    {
+      "library": "github-calendar@2.2.7",
+      "destination": "wwwroot/lib/github-calendar/"
+    }
+  ]
+}

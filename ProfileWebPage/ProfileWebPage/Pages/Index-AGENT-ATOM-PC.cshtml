@@ -1,0 +1,667 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="col-lg-8 col-12">
+            <section class="section" id="about">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">About me</h2>
+                    <p>
+                        I am an Engineering Physics student with a passion for hardware &amp; software development
+                        and an ambitious attitude. My main interests include robotics, embedded systems and 
+                        optoelectronic devices. As an Engineering Physics student I have a unique
+                        background that enables deeper insights regarding complex systems. I have a
+                        broad skill set, which leads to effective collaboration on many different types
+                        of technical projects. I am also an effective worker in a team, as I have worked
+                        with diverse teams of scientists, engineers, software developers &amp; other
+                        students. My hobbies include: backpacking, cycling, cooking, rugby &amp; 
+                        off-road motorcycles. 
+                        <h5>Check out my single-page resume <b><a href="~/pdfs/Liam_Ward_Resume_Single_Page.pdf">here</a></b>!</h5>
+                    </p>
+                </div>
+
+            </section>
+            <section class="latest section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Academic Projects</h2>
+                    <div class="content">
+
+                        <div class="item featured text-center">
+
+                            <div class="featured-image">
+                                <a href="~/pdfs/Report_WLW_FINAL.pdf" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="~/images/thruster.jpg" style="width: 25%;" alt="Propellant Preheat System Optimization" />
+                                </a>
+                            </div>
+
+                            <h3 class="title mb-3"><a href="~/pdfs/Report_WLW_FINAL.pdf" target="_blank">Propellant Preheat System Optimization</a></h3>
+
+                            <div class="desc text-left">
+                                <p>
+                                    In my Computational Multiphysics course, I optimized the design of a spacecraft
+                                    thruster system to ensure cost efficient manufacturing. I utilized my background
+                                    in heat-transfer physics to design a simulation model for a spacecraft thruster
+                                    preheat system and implemented my model in a multiphysics simulation software (FlexPDE).
+                                    Click <a href="~/pdfs/Report_WLW_FINAL.pdf">here</a> to see my report!
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        <hr class="divider" />
+                        <!--3BA Ultrasonic Range finder-->
+                        <div class="item row">
+                            <a class="col-md-6 col-12">
+                                <img class="img-fluid project-image rounded shadow-sm" src="~/images/final_physical.jpg" alt="Ultrasonic Range Finder Design Project" />
+                            </a>
+                            <div class="desc col-md-6 col-12">
+                                <h3 class="title">Ultrasonic Range Finder Design Project</h3>
+                                <p class="mb-2">
+                                    In this project, my group and I designed and built a functional Ultrasonic Ranger Finder. We
+                                    built this device using piezoelectric transducers and base-level electronics. This project
+                                    included analog electronics design work (amplifiers, filters etc.), as well as digital design
+                                    work (latches, counters, display). The device was shown to be accurate to within 1 centimeter within
+                                    a range of 99 centimeters.
+                                    Click <a href="~/pdfs/3BA4_DP_Chapter5_WLW_400170514.pdf">here</a> to see my report
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        <!--PN Junction numerical solution-->
+                        <div class="item row">
+                            <a class="col-md-6 col-12">
+                                <img class="img-fluid project-image rounded shadow-sm" src="~/images/pnj_fd_soln.png" alt="PN Junction Potential" />
+                            </a>
+                            <div class="desc col-md-6 col-12">
+                                <h3 class="title">P-N Junction Potential Numerical Solution</h3>
+                                <p class="mb-2">
+                                    In this project, I solved Poisson's equation within a PN junctio using numerical methods. This report compares
+                                    and contrasts multiple numerical methods and discusses their strengths and weaknesses as applied to this
+                                    problem. The project demonstrates my understanding of semiconductor devices and the application of numerical
+                                    methods used to solve otherwise difficult mathematical problems. 
+                                    Click <a href="~/pdfs/3NM4_Design_Project_2021_WLW.pdf">here</a> to see my report
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                        <!--Sequential logic dp-->
+                        <div class="item row">
+                            <a class="col-md-6 col-12">
+                                <img class="img-fluid project-image rounded shadow-sm" src="~/images/circuit.png" alt="Digital Logic Design Project" />
+                            </a>
+                            <div class="desc col-md-6 col-12">
+                                <h3 class="title">Sequential Logic Design Project</h3>
+                                <p class="mb-2">
+                                    In this project, I analytically designed a sequential logic circuit
+                                    to cycle through a predetermined 9-digit number. I then built and
+                                    simulated this software in <a href="https://www.ni.com/en-ca/support/downloads/software-products/download.multisim.html#312060">NI Multisim</a>
+                                    , whilst applying various simplifications to minimize the number
+                                    of logic gates required.
+                                </p>
+                            </div><!--//desc-->
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+
+            <section class="projects section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Other Relevant Projects</h2>
+                    <div class="item">
+                        <h2 class="title"><a href="https://earsense.ca">EarSense Audiology</a> Web Development</h2>
+                        <div class="row">
+                            <a class="col-md-3" href="https://earsense.ca" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="~/images/EarSense-Logo_Ward_face_transparent_background_05052021.png" alt="EarSense Audiology" />
+                            </a>
+                            <div class="col-md-9">
+                                <p class="summary">
+                                    I developed a website for the EarSense audiology clinic in
+                                    Peterborough, Ontario. I developed this site using ASP.NET
+                                    Core, utilizing Bootstrap for the Front-End design. I implemented
+                                    a date-based booking system for automated online booking
+                                    by EarSense Audiology patients. This system also allows the practitioners
+                                    to manage their appointments via an online interface. This
+                                    booking system was built with C# and interacts with an SQL database.
+                                    Check out the website<a href="https://earsense.ca"> here</a>!
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="title">McMaster Interdisciplinary Satellite Team (NEUDOSE)</h3>
+                            </div>
+                        </div>
+                        <p class="summary">
+                            I started by working on orbital attitude simulations. I currently work on embedded flight
+                            software for the on-board computer.
+                            More about <b>NEUDOSE</b> <a href="https://mcmasterneudose.ca/">here</a>!
+                        </p>
+                    </div><!--//item-->
+                    <h2 class="heading"> Relevant Courses</h2>
+                    <div class="content">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Computational Multiphysics</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: A+</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Mathematical modelling and computational multiphysics for
+                                engineering design synthesizing E&M, thermodynamics, statics,
+                                dynamics, and quantum mechanics.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Mathematical Physics I &amp; II</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: A+</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Eigenvalue problems, Fourier transforms, special
+                                functions, spherical harmonics, partial differential
+                                equations, boundary value problems. Functions of a
+                                complex variable, contour integrals, probability
+                                and statistics.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Thermal Systems Design</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: A</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Thermal Systems Design covers the physics,
+                                thermodynamics and design of energy conversion
+                                systems utilized in many engineering systems.
+                                The topics include the first and second law of
+                                thermodynamics, irreversibility, the Rankine
+                                and Brayton cycles, and common refrigeration cycles.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Electronics I: Circuits with Non-Linear and Active Components</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                P-N junctions, diodes, bipolar junction transistors,
+                                field effect transistors, DC and AC modeling,
+                                differential amplifiers and operational amplifiers,
+                                feedback and oscillators, digital circuits and multivibrators,
+                                signal processing.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Principles of Solid-State Materials and Devices</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Application of quantum mechanics to the electronic, structural
+                                and optical behaviour of solids. Topics will include crystal
+                                structures, diffraction, electrical conductivity, band theory,
+                                lattice vibrations and semiconductors.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Numerical Methods for Engineering</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Applied numerical methods for engineering including 
+                                solution of systems of algebraic equations; numerical
+                                integration and differentiation; finite difference and 
+                                finite element methods; ODE solutions; Optimization;
+                                Partial differential equations; Monte Carlo simulation.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Electronics II: Embedding and Programming a Micro-Controller</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Design and synthesis project in electronics, focused on integrating
+                                analog electronics with a microcontroller to create a PID-controlled device.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Fundamentals of Physical Optics</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Geometrical optics, electromagnetic waves, interference of light,
+                                Fraunhofer and Fresnel diffraction, polarized light, Fresnel equations,
+                                optical properties of materials, introduction to optical systems and
+                                precision optics experiments.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Signals and Systems for Engineering</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                A systems approach to measurement in which synthesis
+                                of topics such as Fourier transforms, signal processing
+                                and enhancement, data reduction, modelling and simulation
+                                is undertaken.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Semiconductor Junction Devices</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Electronic properties of semiconductors: non-equilibrium
+                                carrier conditions; steady state and non-steady state;
+                                p-n junctions; Schottky diodes; bipolar junction transistors.
+                                Detailed coverage of a range of diodes including
+                                photodiodes, solar cells, light emitting diodes,
+                                zener diodes, and avalanche diodes.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="title">Data Structures, Algorithms and Discrete Mathematics</h3>
+                                </div>
+                                <div class="col-5 text-right">
+                                    <h2 class="title">Grade: In-Progress</h2>
+                                </div>
+                            </div>
+                            <p class="summary">
+                                Data abstraction; algorithm analysis; recursion; lists;
+                                stacks; queues; trees; searching; hashing; sorting; sets;
+                                relations; functions; modular arithmetic.
+                            </p>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+            <section class="experience section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Work Experience</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title">Electronics &amp; Software R&amp;D Engineer Intern- <span class="place"><a href="#">MesoMat</a></span> <span class="year">(2019 - 2020)</span></h3>
+                            <p>
+                                During my time at Mesomat, I worked on a broad range of projects.
+                                This includes: Embedded Software Development, Hardware Design &amp; 
+                                Implementation, PCB Design, Full Stack Web Development (ASP.NET),
+                                Desktop Application Development (C# & Java), Code Management (Git),
+                                Mechanical Design and many others. One of my main projects was
+                                designing and constructing an advanced materials production system.
+                                This included: 
+                                <ul>
+                                    <li>
+                                        Constructing a 3D-assembly model of the system
+                                    </li>
+                                    <li>
+                                        Sourcing components for system construction
+                                    </li>
+                                    <li>
+                                        Building the system based on the 3D model
+                                    </li>
+                                    <li>
+                                        Integrate electronics with the mechanical system
+                                    </li>
+                                    <li>
+                                        Designing custom PCB shields to assist with data aquisition for feedback
+                                    </li>
+                                    <li>
+                                        Developing software to interface with mounted high-precision motors
+                                    </li>
+                                </ul> 
+                                This system is currently used to produce proprietary Mesomat sensing material. 
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">Undergraduate Research Assistant - <span class="place"><a href="#">McMaster Biophotonics</a></span> <span class="year">(Summer 2020)</span></h3>
+                            <p>
+                            While working with the McMaster Biophotonics research group, I developed a C++ GUI
+                            and associated backend to control a high power ultrafast pulsed fiber laser system.
+                            </p>                        
+                        </div><!--//item-->
+                        
+                        <div class="item">
+                            <h3 class="title"> Embedded Software Specialist - <span class="place"><a href="#">McMaster Interdisciplinary Satellite Team</a></span> <span class="year">(2021 - Present)</span></h3>
+                            <p>Developing software on the satellite's on-board computer to control satellite subsystems and handle data from each subsystem.</p>
+                        </div>
+    
+                        <div class="item">
+                            <h3 class="title">Orbital Simulation Specialist - <span class="place"><a href="#">McMaster Interdisciplinary Satellite Team</a></span> <span class="year">(2019 - 2021)</span></h3>
+                            <p>
+                                While working in this role, my main project was utilizing an
+                                existing attitude determination algorithm to develop a C package
+                                for attitude determination on the OBC (the On-Board Computer
+                                on the satellite). I also developed proficiency in STK(Systems
+                                Tool Kit) - an aerospace industry standard software used for
+                                mission modelling, simulation, data analysis and visualization.
+                                I then used STK (Systems Tool Kit) to design a virtual space 
+                                environment and independently verify the NEUDOSE satellite’s
+                                Passive Magnetic Attitude Control (PMAC) System.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">IBEHS 1P10 Instructional Teaching Assistant - <span class="place"><a href="#">McMaster iBioMed</a></span> <span class="year">(2020 &amp; 2021)</span></h3>
+                            <p>
+                                As an Instructional Teaching Assistant, I delivered
+                                weekly labs to groups of 40-60 students along with
+                                assistance from support TAs. These labs covered basic
+                                topics in CAD (using Autodesk Inventor) and coding (using Python).
+                                I was resposible for preparing for the
+                                labs each week by doing dry-runs of the lesson delivery.
+                                During the lab, I would guide students through
+                                demonstrations and direct the lab according to the
+                                needs of the students.
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title">IBEHS 1P10 Course Developer - <span class="place"><a href="#">McMaster iBioMed</a></span> <span class="year">(2019)</span></h3>
+                            <p>
+                                As a Course Developer, I assisted in generating lesson plans spanning an
+                                enitre academic year in order to encourage a problem-based learning approach 
+                                to relevant engineering challenges. I also developed a supplementary database
+                                of 66 Python video tutorials and associated educational slides to be
+                                delivered in-lab.
+                            </p>
+                        </div><!--//item-->                       
+                        <div class="item">
+                            <h3 class="title">IBEHS 1P10 Support Teaching Assistant - <span class="place"><a href="#">McMaster iBioMed</a></span> <span class="year">(2019)</span></h3>
+                            <p>
+                                I applied technical skills to enhance learning in an academic environment,
+                                specifically Python and CAD (using Autodesk Inventor). I also participated 
+                                in implementation of newly developed course content, as discussed in weekly
+                                meetings.
+
+                            </p>
+                        </div><!--//item-->
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </section><!--//section-->
+            <section class="github section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">My GitHub</h2>
+                    <h3 class="level-title">Go To My Github</h3>
+                    <div id="github-graph" class="github-graph">
+                    </div><!--//github-graph-->
+                    <a class="btn btn-primary" href="https://github.com/liamward14">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                </div><!--//secton-inner-->
+            </section><!--//section-->
+        </div><!--//primary-->
+
+        <!--Second column starts here-->
+        <div class="secondary col-lg-4 col-12">
+            <aside class="info aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">The Basics</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Hamilton, ON, CA</li>
+                            <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Detroit, MI, USA</li>
+                            <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto: liam.ward144@gmail.com"> liam.ward144@gmail.com</a></li>
+                            <li><h5 style="font-size: medium;"><span class="year">Feel free to reach out!</span></h5></li>
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//aside-->
+
+            <aside class="skills aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Skills</h2>
+                    <div class="content">
+                        <p class="intro">
+                            My interest in programming coupled with my education in Enginering Physics has enabled me to develop a practical and broad skillset.
+                        </p>
+
+                        <div class="skillset">
+                            <div class="item">
+                                <h3 class="level-title">C# &amp; .NET<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I used C# to develop desktop applications for Mesomat Inc., and I used ASP.NET for full-stack web development."><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="92%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I lead labs for a first year iBioMed course - teaching basic coding skills using Python"><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="90%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+
+                            <div class="item">
+                                <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I have used Java along with processing to modify existing desktop applications. I also learned about various data structures through a software engineering course that utilized Java"><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="88%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">C &amp; C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I used C++ to develop a desktop application for controlling a laser machining station. I also use C/C++ for embedded development when prototyping client electronics packages at Mesomat Inc."><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">PCB Design<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I designed various circuits that utilize a microcontroller, and various peripherals for measurement of custom Mesomat sensors."><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="85%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">MATLAB<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I used MATLAB to automate simulation for the McMaster Interdisciplinary Satellite Team, and in my Engineering courses"><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="88%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Autodesk Inventor <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I teach labs for a first-year iBioMed course that utilizes Autodesk Inventor to teach the basics of CAD"><i class="fas fa-info-circle"></i>Competent</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="95%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item mb-0">
+                                <h2 class="subheading">More skills:</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <h3 class="level-title">FreeRTOS</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Git</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">JavaScript + jQuery</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">HTML5 &amp; CSS3</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">SQL</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Programming in a Linux Environment</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Autodesk Fusion 360</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">NI Multisim</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Maple</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">FlexPDE</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">NSIS Installer</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Processing</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Soldering &amp; Hot-Air Rework</h3>
+                                </li>
+                                <li>
+                                    <h3 class="level-title">Postman</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+            <aside class="education aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fas fa-graduation-cap"></i> B.Eng Engineering Physics</h3>
+                            <h4 class="university">McMaster University <span class="year">[2018-2023]</span></h4>
+                            <h4 class="university">GPA: 3.95 / 4</h4>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+            <aside class="testimonials aside section">
+                <div class="section-inner shadow-sm rounded">
+                    <h2 class="heading">Testimonials</h2>
+                    <div class="content">
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p class="text-left">
+                                    <i class="fas fa-quote-left"></i>
+                                    So awesome to have you on the team. Cant
+                                    imagine where we would be without the
+                                    incredibly talented students working with us.
+                                </p>
+                            </blockquote>
+                            <p class="source">
+                                <span class="name">Dr. Kari Dalnoki-Veress</span><br />
+                                <span class="title">
+                                    Co-Founder of MesoMat Inc.
+                                </span><br />
+                                See more on <a href="https://www.linkedin.com/feed/update/urn:li:activity:6805906019156324352?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6805906019156324352%2C6807650059610558464%29">LinkedIn</a>
+                        </div>
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p class="text-left">
+                                    <i class="fas fa-quote-left"></i>
+                                    Liam Ward is truly a wonderful individual whom I have been very fortunate to have previously
+                                    taught and more recently work for me as a TA. In his various roles (student, Course Developer,
+                                    TA), Mr. Ward has been required to apply a breadth of skills, whether it be working under
+                                    pressure, working as a member of a team, mentoring and leadership, communication, and
+                                    technical troubleshooting. In all respects, Mr. Ward is exceptional. His aptitude and work ethic
+                                    are such that he is incredibly adaptable and can succeed at any task he is assigned.
+                                </p>
+                            </blockquote>
+                            <p class="source">
+                                <span class="name">Dr. Colin McDonald</span><br />
+                                <span class="title">
+                                    Associate Director
+                                </span><br />
+                                <span class="title">
+                                    Integrated Biomedical Engineering & Health Sciences
+                                </span>
+                            </p>
+                        </div><!--//item-->
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p class="text-left">
+                                    <i class="fas fa-quote-left"></i>
+                                    Liam is focused and task-oriented, which has made him 
+                                    ideal for our start-up environment. We are often faced 
+                                    with challenging projects with hard deadlines and Liam’s
+                                    hard work, dedication, and ability to work as part of 
+                                    a team has been a real asset. In addition to fulfilling
+                                    the deliverables aspect of his job, Liam’s natural
+                                    curiosity and eagerness to learn has enabled him to 
+                                    bring innovative and creative solutions to the table.
+                                    He has excellent communication skills, raises important
+                                    questions, and has worked well with every member of our team.
+                                </p>
+                            </blockquote>
+                            <p class="source">
+                                <span class="name">Dr. Clare Armstrong</span><br />
+                                <span class="title">
+                                    Head of Research & Development at MesoMat Inc.
+                                </span><br />
+                        </div>
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+@section Scripts{
+}
