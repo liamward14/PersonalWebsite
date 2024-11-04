@@ -6,6 +6,7 @@ C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWeb
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\3ba_pcb.PNG
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\circuit.png
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\EarSense-Logo_Ward_face_transparent_background_05052021.png
+C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\eenptd.PNG
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\final_physical.jpg
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\LiamWardSmaller.jpg
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\pcb_2_23.PNG
@@ -64,6 +65,7 @@ C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWeb
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pdfs\MCM_TS_MCOFF_2_23.pdf
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pdfs\Report_WLW_FINAL.pdf
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pdfs\William_Ward_Resume.pdf
+C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\pdfs\WLW_UM_TS_REDACTED.pdf
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\svgs\github.svg
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\svgs\linkedin-in.svg
 C:\Users\liamw\OneDrive\CodingProjects\PersonalWebsite\ProfileWebPage\ProfileWebPage\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
